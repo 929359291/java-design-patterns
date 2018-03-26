@@ -37,6 +37,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * <p>Factory produces the object of its liking. 
  * The weapon {@link Weapon} manufactured by the
  * blacksmith depends on the kind of factory implementation it is referring to.
+ *
+ *工厂方法创建型设计模式,使用工厂方法来处理
+ *创建对象的问题没有指定具体类的对象将被创建。
+ *这是通过创建对象通过调用工厂方法中指定一个接口
+ *由子类实现,或在基类中实现,选择覆盖
+ *派生的类,而不是通过调用构造函数。
+ *
+ * < p >工厂产生喜欢的对象。
+ *武器} { @link武器的制造
+ *铁匠取决于工厂实现它指的是。
  * </p>
  */
 public class FactoryMethodTest {
